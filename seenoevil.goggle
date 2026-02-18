@@ -1,0 +1,31 @@
+! name: See no evil
+! description: Block all the bad stuff from the internet
+! public: true
+! author: Ultishayaan
+
+$discard,site=investor.pinterestinc.com
+$discard,site=pinterest.at
+$discard,site=pinterest.ca
+$discard,site=pinterest.ch
+$discard,site=pinterest.cl
+$discard,site=pinterest.co.kr
+$discard,site=pinterest.co.uk
+$discard,site=pinterest.com
+$discard,site=pinterest.com.au
+$discard,site=pinterest.com.mx
+$discard,site=pinterest.de
+$discard,site=pinterest.dk
+$discard,site=pinterest.es
+$discard,site=pinterest.fr
+$discard,site=pinterest.ie
+$discard,site=pinterest.it
+$discard,site=pinterest.nz
+$discard,site=pinterest.ph
+$discard,site=pinterest.pt
+$discard,site=pinterest.ru
+$discard,site=pinterestcareers.com
+/pinterest/$discard,site=instagram.com
+$discard,site=facebook.com^
+$discard,site=x.com^
+$discard,site=reddit.com^
+$discard,site=pornhub.com^
